@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42362aa1bc621604fbf84175585fdd56, type: 3}
+  m_Name: GoldAchievement
+  m_EditorClassIdentifier: 
+  allAchievement:
+  - name: The beginning of fortune
+    id: CgkI6PHoo7QcEAIQEA
+    value: 10
+  - name: Wealth
+    id: CgkI6PHoo7QcEAIQEQ
+    value: 100
+  - name: Money grows in bubbles
+    id: CgkI6PHoo7QcEAIQEg
+    value: 500
+  - name: Always more !
+    id: CgkI6PHoo7QcEAIQEw
+    value: 1000
+  typeAchievement: Gold
+
+

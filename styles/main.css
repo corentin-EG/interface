@@ -1,0 +1,205 @@
+@font-face {
+	font-family: 'avenir';
+	src: url('../fonts/AvenirLTStd-Medium.otf') format('truetype');
+}
+
+#container {
+	background: #4c5159;
+	height: 100%;
+}
+
+
+														/* BASIC RESET */
+
+* {margin: 0; padding: 0;}
+
+
+body { 
+	font-family: 'avenir';
+}
+
+.setClear {
+	clear: both;
+}
+
+
+														/* MENU */
+
+#navbloc {
+	position: absolute;
+	background: #2e3136;
+	padding-top: 30px;
+	width: 280px;
+	color: white;
+	box-shadow: 0 0 15px 4px rgba(1, 1, 1, 1);
+	height: 100%;
+	box-sizing: border-box;
+
+}
+
+#accordian {
+	background: #1b1c1e;
+}
+
+#accordian h3 {
+	font-size: 20px;
+	line-height: 34px;
+	padding: 5px 30px;
+	cursor: pointer;
+	background: #2e3136;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+/*	background: linear-gradient(#2e3136, #2e3136);*/
+}
+
+#accordian h3:hover {
+	text-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+}
+
+#accordian li {
+	list-style-type: none;
+}
+
+#accordian ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 27px;
+	display: block;
+	padding: 10px 0;
+	padding-left: 50px;
+	transition: all 0.1s;
+}
+
+#accordian ul ul li a:hover {
+	background: #2e3136;
+	box-shadow: 5px 0 0 #df4640 inset;
+	outline-top: 1px solid white;
+	outline-bottom: 1px solid white;
+}
+
+#accordian ul ul {
+	display: none;
+}
+
+#accordian li.active ul {
+	display: block;
+}
+
+#redband {
+	float: left;
+	width: 300px;
+	height: 100%;
+	background: #df4640;
+}
+
+
+																			/* HEADING */
+
+#heading {
+	background: #2e3136;
+	border-bottom: 1px solid #111214;
+	padding-left: 370px;
+}
+
+																			/* CONTENT */
+
+#content {
+	padding: 50px 100px 50px 400px;
+/*	background: green;*/
+	color: #707578;
+}
+
+																							/* Global view */
+
+#global-view .back_loading_bar {
+	margin-top: 7px;
+	background: black;
+	width: 100%;
+	height: 3px;
+}
+
+#global-view .loading_bar {
+/*	background: lightgreen;*/
+	width: 50%;
+	height: 3px;
+}
+
+#global-view {
+/*	background: darkred;*/
+	height: 400px;
+}
+
+#global-view h2 {
+	display: inline-block;
+	font-size: 20px;
+}
+
+#global-view .progression {
+	font-size: 20px;
+	float: right;
+}
+
+#global-view .file-completed {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 10px;
+}																													
+
+																													/* Details */
+
+#global-view-detail {
+	height: auto;
+	background: #202226;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#global-view-detail nav {
+	display: inline-block;
+}
+
+#global-view-detail nav li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 25px;
+}
+
+#global-view-detail nav li a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #707578;
+}
+
+#global-view-detail nav li a:hover {
+	color: white;
+}
+
+#global-view-detail nav li a.active {
+	color: white;
+}
+
+#global-view-detail .search {
+	float: right;
+	font-size: 16px;
+}
+
+#global-view-detail #itemlist li {
+	list-style: none;
+}
+
+
+																							/* Structure */
+
+#structure {
+	margin-top: 50px;
+	height: 200px;
+}
+
+#structure hr {
+	border-color: black;
+}
+
+#structure-detail {
+	background: #202226;
+}

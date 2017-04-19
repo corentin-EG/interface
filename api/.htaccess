@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+ 
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-s
+    RewriteRule ^(.*)$ myindex.php?req=$1 [QSA,NC,L]
+ 
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^(.*)$ myindex.php [QSA,NC,L]
+ 
+    RewriteCond %{REQUEST_FILENAME} -s
+    RewriteRule ^(.*)$ myindex.php [QSA,NC,L]
+</IfModule>
+
